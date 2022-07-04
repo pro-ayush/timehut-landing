@@ -24,13 +24,14 @@ body {
 .mainHeading {
     font-size: 4rem;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .heading {
-    font-size: 3.2rem;
+    font-size: 3rem;
+    font-family: 'inter';
+    font-weight: 700;
     text-transform: capitalize;
-    font-weight: 900;
 
 }
 

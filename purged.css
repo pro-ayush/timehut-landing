@@ -56,6 +56,7 @@
   
   .nav-links {
     display: flex;
+    list-style: none;
   }
   
   
@@ -244,7 +245,7 @@
   }
   .subheading {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 24px;
   }
   .subheading.text-primary-1 {
@@ -762,10 +763,9 @@
     .navbar {
   
       display: flex;
-      -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
+      -webkit-justify-content: space-between;
       justify-content: space-between;
-  
+
       padding-top: 16px;
       padding-bottom: 16px;
   
