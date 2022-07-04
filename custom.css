@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    padding: 0px 10rem;
+    font-family: 'inter';
+}
+
+
+/* Navigation bar */
+
+#logo {
+    height: 40px;
+}
+
+
+#Register {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.mainHeading {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    font-weight: 900;
+
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-transform: capitalize;
+}
+
+.description {
+    width: 50ch;
+}
+
+.center {
+    text-align: center;
+}
+
+.logoDiv {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+}
+
+#logoText {
+    display: flex;
+    align-items: center;
+
+    font-size: 3rem;
+
+    margin-top: 1rem;
+
+    /* margin-top: 1rem;
+    margin-left: 1rem; */
+}
+
+@media (max-width:480px) {
+    body {
+        padding: 1rem;
+    }
+}
